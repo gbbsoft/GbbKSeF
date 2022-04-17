@@ -7,5 +7,5 @@ Plik2: https://www.gbbsoft.pl/!download/GbbKSeF/setup.exe
 Wystarczy wgrać pliki do jednego katalogu (najlepiej pustego) i uruchomić setup.exe (albo plik .msi).
 Wymagania: .Net Framework Core 6.0.202
 
-Dodatek ekstra: możliwość pobrania wysłanej faktury i wygenerowania faktury korygującej "do zera" dla niej (i ew. wysłania do KSeF)
+Dodatek ekstra: możliwość pobrania wysłanej faktury i wygenerowania faktury korygującej "do zera" dla niej (i ew. wysłania do KSeF)
 
