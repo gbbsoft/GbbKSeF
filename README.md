@@ -1,4 +1,4 @@
-﻿Oto program GbbKSeF v1.0 - wersja do testowania API KSeF, ale wydaje się, że w pełni działająca (z wyjątkiem problemów z wysyłaniem więcej niż 1 pliku w trybie batch).
+﻿Oto program GbbKSeF v1.0 - wersja do testowania API KSeF ("państwowe" eFaktury), ale wydaje się, że w pełni działająca (z wyjątkiem problemów z wysyłaniem więcej niż 1 pliku w trybie batch - ale to chyba problem po stronie KSeF).
 
 Program do pobrania tutaj:
 Plik1: https://www.gbbsoft.pl/!download/GbbKSeF/GbbKSeFSetup.msi
