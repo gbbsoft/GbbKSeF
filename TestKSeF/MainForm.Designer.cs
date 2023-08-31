@@ -28,1163 +28,1153 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Configuration_listBox = new System.Windows.Forms.ListBox();
-            this.configurationBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.AuthorisationChallenge_button = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Challenge_textBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Timestamp_textBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ReferenceNo_textBox = new System.Windows.Forms.TextBox();
-            this.InitToken_button = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.TokenSesji_textBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.GetStatus2_button = new System.Windows.Forms.Button();
-            this.GetStatus_button = new System.Windows.Forms.Button();
-            this.Status_textBox = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.Terminate_button = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.Invoice1_RefNo_textBox = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.Invoice1_Dlg_button = new System.Windows.Forms.Button();
-            this.Invoice1_textBox = new System.Windows.Forms.TextBox();
-            this.Invoice1_button = new System.Windows.Forms.Button();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.GetInvoice1_CorrReason_textBox = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.GetInvoice1_CorrNumber_textBox = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.GetInvoice1AndCorrect_button = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.GetInvoice1_FileName_button = new System.Windows.Forms.Button();
-            this.KSefRefNo_textBox = new System.Windows.Forms.TextBox();
-            this.GetInvoice_FileName_textBox = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.GetInvoice1_button = new System.Windows.Forms.Button();
-            this.GetInvoice1_textBox = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.InvoiceStatus_button = new System.Windows.Forms.Button();
-            this.InvoiceStatus_textBox = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.QueryHeader_Subject2_radioButton = new System.Windows.Forms.RadioButton();
-            this.QueryHeader_Subject1_radioButton = new System.Windows.Forms.RadioButton();
-            this.QueryHeader_PageNo_numericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.label19 = new System.Windows.Forms.Label();
-            this.QueryHeader_textBox = new System.Windows.Forms.TextBox();
-            this.QueryHeader_button = new System.Windows.Forms.Button();
-            this.QueryHeader_ToDate_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.label12 = new System.Windows.Forms.Label();
-            this.QueryHeader_FromDate_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.label11 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.QueryFiles_File_button = new System.Windows.Forms.Button();
-            this.QueryFiles_File_textBox = new System.Windows.Forms.TextBox();
-            this.QueryFiles_Get_button = new System.Windows.Forms.Button();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.QueryFiles_Status_button = new System.Windows.Forms.Button();
-            this.QueryFiles_Status_textBox = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.QueryFiles_RefNo_textBox = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.QueryFiles_Init_button = new System.Windows.Forms.Button();
-            this.QueryFiles_ToDate_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.label13 = new System.Windows.Forms.Label();
-            this.QueryFiles_FromDate_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.label14 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.Batch_SignFile_button = new System.Windows.Forms.Button();
-            this.Batch_SignFile_textBox = new System.Windows.Forms.TextBox();
-            this.Batch_Send_button = new System.Windows.Forms.Button();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.Batch_MaxSize_numericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.Batch_ZipFile_button = new System.Windows.Forms.Button();
-            this.Batch_ZipFile_textBox = new System.Windows.Forms.TextBox();
-            this.Batch_Init_button = new System.Windows.Forms.Button();
-            this.Configuration_button = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.configurationBindingSource)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.QueryHeader_PageNo_numericUpDown)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Batch_MaxSize_numericUpDown)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            label1 = new Label();
+            Configuration_listBox = new ListBox();
+            configurationBindingSource = new BindingSource(components);
+            AuthorisationChallenge_button = new Button();
+            groupBox1 = new GroupBox();
+            Challenge_textBox = new TextBox();
+            label4 = new Label();
+            Timestamp_textBox = new TextBox();
+            label3 = new Label();
+            groupBox2 = new GroupBox();
+            FA2 = new RadioButton();
+            ReferenceNo_textBox = new TextBox();
+            FA1 = new RadioButton();
+            InitToken_button = new Button();
+            label2 = new Label();
+            TokenSesji_textBox = new TextBox();
+            label5 = new Label();
+            groupBox3 = new GroupBox();
+            label26 = new Label();
+            GetStatus2_button = new Button();
+            GetStatus_button = new Button();
+            Status_textBox = new TextBox();
+            label7 = new Label();
+            groupBox4 = new GroupBox();
+            Terminate_button = new Button();
+            groupBox5 = new GroupBox();
+            Invoice1_RefNo_textBox = new TextBox();
+            label6 = new Label();
+            Invoice1_Dlg_button = new Button();
+            Invoice1_textBox = new TextBox();
+            Invoice1_button = new Button();
+            groupBox7 = new GroupBox();
+            GetInvoice1_CorrReason_textBox = new TextBox();
+            label25 = new Label();
+            GetInvoice1_CorrNumber_textBox = new TextBox();
+            label24 = new Label();
+            GetInvoice1AndCorrect_button = new Button();
+            label22 = new Label();
+            GetInvoice1_FileName_button = new Button();
+            KSefRefNo_textBox = new TextBox();
+            GetInvoice_FileName_textBox = new TextBox();
+            label10 = new Label();
+            GetInvoice1_button = new Button();
+            GetInvoice1_textBox = new TextBox();
+            label9 = new Label();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            groupBox6 = new GroupBox();
+            InvoiceStatus_button = new Button();
+            InvoiceStatus_textBox = new TextBox();
+            label8 = new Label();
+            tabPage2 = new TabPage();
+            groupBox8 = new GroupBox();
+            QueryHeader_Subject2_radioButton = new RadioButton();
+            QueryHeader_Subject1_radioButton = new RadioButton();
+            QueryHeader_PageNo_numericUpDown = new NumericUpDown();
+            label19 = new Label();
+            QueryHeader_textBox = new TextBox();
+            QueryHeader_button = new Button();
+            QueryHeader_ToDate_dateTimePicker = new DateTimePicker();
+            label12 = new Label();
+            QueryHeader_FromDate_dateTimePicker = new DateTimePicker();
+            label11 = new Label();
+            tabPage4 = new TabPage();
+            groupBox11 = new GroupBox();
+            label18 = new Label();
+            QueryFiles_File_button = new Button();
+            QueryFiles_File_textBox = new TextBox();
+            QueryFiles_Get_button = new Button();
+            groupBox10 = new GroupBox();
+            QueryFiles_Status_button = new Button();
+            QueryFiles_Status_textBox = new TextBox();
+            label16 = new Label();
+            groupBox9 = new GroupBox();
+            QueryFiles_RefNo_textBox = new TextBox();
+            label15 = new Label();
+            QueryFiles_Init_button = new Button();
+            QueryFiles_ToDate_dateTimePicker = new DateTimePicker();
+            label13 = new Label();
+            QueryFiles_FromDate_dateTimePicker = new DateTimePicker();
+            label14 = new Label();
+            tabPage3 = new TabPage();
+            groupBox13 = new GroupBox();
+            label21 = new Label();
+            Batch_SignFile_button = new Button();
+            Batch_SignFile_textBox = new TextBox();
+            Batch_Send_button = new Button();
+            groupBox12 = new GroupBox();
+            label23 = new Label();
+            Batch_MaxSize_numericUpDown = new NumericUpDown();
+            label17 = new Label();
+            label20 = new Label();
+            Batch_ZipFile_button = new Button();
+            Batch_ZipFile_textBox = new TextBox();
+            Batch_Init_button = new Button();
+            Configuration_button = new Button();
+            ((System.ComponentModel.ISupportInitialize)configurationBindingSource).BeginInit();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
+            groupBox4.SuspendLayout();
+            groupBox5.SuspendLayout();
+            groupBox7.SuspendLayout();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            groupBox6.SuspendLayout();
+            tabPage2.SuspendLayout();
+            groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)QueryHeader_PageNo_numericUpDown).BeginInit();
+            tabPage4.SuspendLayout();
+            groupBox11.SuspendLayout();
+            groupBox10.SuspendLayout();
+            groupBox9.SuspendLayout();
+            tabPage3.SuspendLayout();
+            groupBox13.SuspendLayout();
+            groupBox12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Batch_MaxSize_numericUpDown).BeginInit();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Konfiguracja:";
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(77, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Konfiguracja:";
             // 
             // Configuration_listBox
             // 
-            this.Configuration_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Configuration_listBox.DataSource = this.configurationBindingSource;
-            this.Configuration_listBox.DisplayMember = "OurFullName";
-            this.Configuration_listBox.FormattingEnabled = true;
-            this.Configuration_listBox.ItemHeight = 15;
-            this.Configuration_listBox.Location = new System.Drawing.Point(95, 24);
-            this.Configuration_listBox.Name = "Configuration_listBox";
-            this.Configuration_listBox.Size = new System.Drawing.Size(1020, 64);
-            this.Configuration_listBox.TabIndex = 1;
+            Configuration_listBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            Configuration_listBox.DataSource = configurationBindingSource;
+            Configuration_listBox.DisplayMember = "OurFullName";
+            Configuration_listBox.FormattingEnabled = true;
+            Configuration_listBox.ItemHeight = 15;
+            Configuration_listBox.Location = new Point(95, 24);
+            Configuration_listBox.Name = "Configuration_listBox";
+            Configuration_listBox.Size = new Size(1020, 64);
+            Configuration_listBox.TabIndex = 1;
             // 
             // AuthorisationChallenge_button
             // 
-            this.AuthorisationChallenge_button.Location = new System.Drawing.Point(6, 22);
-            this.AuthorisationChallenge_button.Name = "AuthorisationChallenge_button";
-            this.AuthorisationChallenge_button.Size = new System.Drawing.Size(446, 23);
-            this.AuthorisationChallenge_button.TabIndex = 2;
-            this.AuthorisationChallenge_button.Text = "Nawiąż sesję";
-            this.AuthorisationChallenge_button.UseVisualStyleBackColor = true;
-            this.AuthorisationChallenge_button.Click += new System.EventHandler(this.AuthorisationChallenge_button_Click);
+            AuthorisationChallenge_button.Location = new Point(6, 22);
+            AuthorisationChallenge_button.Name = "AuthorisationChallenge_button";
+            AuthorisationChallenge_button.Size = new Size(446, 23);
+            AuthorisationChallenge_button.TabIndex = 2;
+            AuthorisationChallenge_button.Text = "Nawiąż sesję";
+            AuthorisationChallenge_button.UseVisualStyleBackColor = true;
+            AuthorisationChallenge_button.Click += AuthorisationChallenge_button_Click;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.Challenge_textBox);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.Timestamp_textBox);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.AuthorisationChallenge_button);
-            this.groupBox1.Location = new System.Drawing.Point(12, 94);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(458, 117);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nawiązanie sesji";
+            groupBox1.Controls.Add(Challenge_textBox);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(Timestamp_textBox);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(AuthorisationChallenge_button);
+            groupBox1.Location = new Point(12, 94);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(458, 117);
+            groupBox1.TabIndex = 4;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Nawiązanie sesji";
             // 
             // Challenge_textBox
             // 
-            this.Challenge_textBox.Location = new System.Drawing.Point(98, 80);
-            this.Challenge_textBox.Name = "Challenge_textBox";
-            this.Challenge_textBox.Size = new System.Drawing.Size(354, 23);
-            this.Challenge_textBox.TabIndex = 8;
+            Challenge_textBox.Location = new Point(98, 80);
+            Challenge_textBox.Name = "Challenge_textBox";
+            Challenge_textBox.Size = new Size(354, 23);
+            Challenge_textBox.TabIndex = 8;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 83);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 15);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Challenge:";
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 83);
+            label4.Name = "label4";
+            label4.Size = new Size(63, 15);
+            label4.TabIndex = 7;
+            label4.Text = "Challenge:";
             // 
             // Timestamp_textBox
             // 
-            this.Timestamp_textBox.Location = new System.Drawing.Point(98, 51);
-            this.Timestamp_textBox.Name = "Timestamp_textBox";
-            this.Timestamp_textBox.Size = new System.Drawing.Size(354, 23);
-            this.Timestamp_textBox.TabIndex = 6;
+            Timestamp_textBox.Location = new Point(98, 51);
+            Timestamp_textBox.Name = "Timestamp_textBox";
+            Timestamp_textBox.Size = new Size(354, 23);
+            Timestamp_textBox.TabIndex = 6;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 54);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 15);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "timestamp:";
+            label3.AutoSize = true;
+            label3.Location = new Point(6, 54);
+            label3.Name = "label3";
+            label3.Size = new Size(67, 15);
+            label3.TabIndex = 5;
+            label3.Text = "timestamp:";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.ReferenceNo_textBox);
-            this.groupBox2.Controls.Add(this.InitToken_button);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.TokenSesji_textBox);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Location = new System.Drawing.Point(12, 217);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(458, 117);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Logowanie tokenem";
+            groupBox2.Controls.Add(FA2);
+            groupBox2.Controls.Add(ReferenceNo_textBox);
+            groupBox2.Controls.Add(FA1);
+            groupBox2.Controls.Add(InitToken_button);
+            groupBox2.Controls.Add(label2);
+            groupBox2.Controls.Add(TokenSesji_textBox);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Location = new Point(12, 217);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(458, 135);
+            groupBox2.TabIndex = 9;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Logowanie tokenem";
+            // 
+            // FA2
+            // 
+            FA2.AutoSize = true;
+            FA2.Checked = true;
+            FA2.Location = new Point(67, 19);
+            FA2.Name = "FA2";
+            FA2.Size = new Size(55, 19);
+            FA2.TabIndex = 12;
+            FA2.TabStop = true;
+            FA2.Text = "FA (2)";
+            FA2.UseVisualStyleBackColor = true;
             // 
             // ReferenceNo_textBox
             // 
-            this.ReferenceNo_textBox.Location = new System.Drawing.Point(98, 80);
-            this.ReferenceNo_textBox.Name = "ReferenceNo_textBox";
-            this.ReferenceNo_textBox.Size = new System.Drawing.Size(354, 23);
-            this.ReferenceNo_textBox.TabIndex = 12;
+            ReferenceNo_textBox.Location = new Point(98, 102);
+            ReferenceNo_textBox.Name = "ReferenceNo_textBox";
+            ReferenceNo_textBox.Size = new Size(354, 23);
+            ReferenceNo_textBox.TabIndex = 12;
+            // 
+            // FA1
+            // 
+            FA1.AutoSize = true;
+            FA1.Location = new Point(6, 19);
+            FA1.Name = "FA1";
+            FA1.Size = new Size(55, 19);
+            FA1.TabIndex = 11;
+            FA1.Text = "FA (1)";
+            FA1.UseVisualStyleBackColor = true;
             // 
             // InitToken_button
             // 
-            this.InitToken_button.Location = new System.Drawing.Point(6, 22);
-            this.InitToken_button.Name = "InitToken_button";
-            this.InitToken_button.Size = new System.Drawing.Size(446, 23);
-            this.InitToken_button.TabIndex = 2;
-            this.InitToken_button.Text = "Loguj się tokenem";
-            this.InitToken_button.UseVisualStyleBackColor = true;
-            this.InitToken_button.Click += new System.EventHandler(this.InitToken_button_Click);
+            InitToken_button.Location = new Point(6, 44);
+            InitToken_button.Name = "InitToken_button";
+            InitToken_button.Size = new Size(446, 23);
+            InitToken_button.TabIndex = 2;
+            InitToken_button.Text = "Loguj się tokenem";
+            InitToken_button.UseVisualStyleBackColor = true;
+            InitToken_button.Click += InitToken_button_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 15);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "ReferenceNo:";
+            label2.AutoSize = true;
+            label2.Location = new Point(6, 105);
+            label2.Name = "label2";
+            label2.Size = new Size(78, 15);
+            label2.TabIndex = 11;
+            label2.Text = "ReferenceNo:";
             // 
             // TokenSesji_textBox
             // 
-            this.TokenSesji_textBox.Location = new System.Drawing.Point(98, 51);
-            this.TokenSesji_textBox.Name = "TokenSesji_textBox";
-            this.TokenSesji_textBox.Size = new System.Drawing.Size(354, 23);
-            this.TokenSesji_textBox.TabIndex = 10;
+            TokenSesji_textBox.Location = new Point(98, 73);
+            TokenSesji_textBox.Name = "TokenSesji_textBox";
+            TokenSesji_textBox.Size = new Size(354, 23);
+            TokenSesji_textBox.TabIndex = 10;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 54);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 15);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "token sesji:";
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 76);
+            label5.Name = "label5";
+            label5.Size = new Size(65, 15);
+            label5.TabIndex = 9;
+            label5.Text = "token sesji:";
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label26);
-            this.groupBox3.Controls.Add(this.GetStatus2_button);
-            this.groupBox3.Controls.Add(this.GetStatus_button);
-            this.groupBox3.Controls.Add(this.Status_textBox);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Location = new System.Drawing.Point(12, 340);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(458, 185);
-            this.groupBox3.TabIndex = 13;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Status sesji wg ReferenceNo";
+            groupBox3.Controls.Add(label26);
+            groupBox3.Controls.Add(GetStatus2_button);
+            groupBox3.Controls.Add(GetStatus_button);
+            groupBox3.Controls.Add(Status_textBox);
+            groupBox3.Controls.Add(label7);
+            groupBox3.Location = new Point(12, 358);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(458, 185);
+            groupBox3.TabIndex = 13;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Status sesji wg ReferenceNo";
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(6, 92);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(90, 15);
-            this.label26.TabIndex = 12;
-            this.label26.Text = "czekamy na 315";
+            label26.AutoSize = true;
+            label26.Location = new Point(6, 92);
+            label26.Name = "label26";
+            label26.Size = new Size(90, 15);
+            label26.TabIndex = 12;
+            label26.Text = "czekamy na 315";
             // 
             // GetStatus2_button
             // 
-            this.GetStatus2_button.Location = new System.Drawing.Point(6, 51);
-            this.GetStatus2_button.Name = "GetStatus2_button";
-            this.GetStatus2_button.Size = new System.Drawing.Size(446, 23);
-            this.GetStatus2_button.TabIndex = 11;
-            this.GetStatus2_button.Text = "Sprawdź common status / Status paczki wysłanej batchem (bez sesji)";
-            this.GetStatus2_button.UseVisualStyleBackColor = true;
-            this.GetStatus2_button.Click += new System.EventHandler(this.GetStatus2_button_Click);
+            GetStatus2_button.Location = new Point(6, 51);
+            GetStatus2_button.Name = "GetStatus2_button";
+            GetStatus2_button.Size = new Size(446, 23);
+            GetStatus2_button.TabIndex = 11;
+            GetStatus2_button.Text = "Sprawdź common status / Status paczki wysłanej batchem (bez sesji)";
+            GetStatus2_button.UseVisualStyleBackColor = true;
+            GetStatus2_button.Click += GetStatus2_button_Click;
             // 
             // GetStatus_button
             // 
-            this.GetStatus_button.Location = new System.Drawing.Point(6, 22);
-            this.GetStatus_button.Name = "GetStatus_button";
-            this.GetStatus_button.Size = new System.Drawing.Size(446, 23);
-            this.GetStatus_button.TabIndex = 2;
-            this.GetStatus_button.Text = "Sprawdź online status";
-            this.GetStatus_button.UseVisualStyleBackColor = true;
-            this.GetStatus_button.Click += new System.EventHandler(this.GetStatus_button_Click);
+            GetStatus_button.Location = new Point(6, 22);
+            GetStatus_button.Name = "GetStatus_button";
+            GetStatus_button.Size = new Size(446, 23);
+            GetStatus_button.TabIndex = 2;
+            GetStatus_button.Text = "Sprawdź online status";
+            GetStatus_button.UseVisualStyleBackColor = true;
+            GetStatus_button.Click += GetStatus_button_Click;
             // 
             // Status_textBox
             // 
-            this.Status_textBox.Location = new System.Drawing.Point(98, 80);
-            this.Status_textBox.Multiline = true;
-            this.Status_textBox.Name = "Status_textBox";
-            this.Status_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.Status_textBox.Size = new System.Drawing.Size(354, 99);
-            this.Status_textBox.TabIndex = 10;
-            this.Status_textBox.WordWrap = false;
+            Status_textBox.Location = new Point(98, 80);
+            Status_textBox.Multiline = true;
+            Status_textBox.Name = "Status_textBox";
+            Status_textBox.ScrollBars = ScrollBars.Both;
+            Status_textBox.Size = new Size(354, 99);
+            Status_textBox.TabIndex = 10;
+            Status_textBox.WordWrap = false;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 77);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 15);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Status:";
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 77);
+            label7.Name = "label7";
+            label7.Size = new Size(42, 15);
+            label7.TabIndex = 9;
+            label7.Text = "Status:";
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.Terminate_button);
-            this.groupBox4.Location = new System.Drawing.Point(12, 531);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(458, 64);
-            this.groupBox4.TabIndex = 14;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Koniec";
+            groupBox4.Controls.Add(Terminate_button);
+            groupBox4.Location = new Point(12, 549);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(458, 64);
+            groupBox4.TabIndex = 14;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Koniec";
             // 
             // Terminate_button
             // 
-            this.Terminate_button.Location = new System.Drawing.Point(6, 22);
-            this.Terminate_button.Name = "Terminate_button";
-            this.Terminate_button.Size = new System.Drawing.Size(446, 23);
-            this.Terminate_button.TabIndex = 2;
-            this.Terminate_button.Text = "Terminate session";
-            this.Terminate_button.UseVisualStyleBackColor = true;
-            this.Terminate_button.Click += new System.EventHandler(this.Terminate_button_Click);
+            Terminate_button.Location = new Point(6, 22);
+            Terminate_button.Name = "Terminate_button";
+            Terminate_button.Size = new Size(446, 23);
+            Terminate_button.TabIndex = 2;
+            Terminate_button.Text = "Terminate session";
+            Terminate_button.UseVisualStyleBackColor = true;
+            Terminate_button.Click += Terminate_button_Click;
             // 
             // groupBox5
             // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox5.Controls.Add(this.Invoice1_RefNo_textBox);
-            this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Controls.Add(this.Invoice1_Dlg_button);
-            this.groupBox5.Controls.Add(this.Invoice1_textBox);
-            this.groupBox5.Controls.Add(this.Invoice1_button);
-            this.groupBox5.Location = new System.Drawing.Point(6, 6);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(677, 117);
-            this.groupBox5.TabIndex = 15;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Wysłanie jednej faktury";
+            groupBox5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox5.Controls.Add(Invoice1_RefNo_textBox);
+            groupBox5.Controls.Add(label6);
+            groupBox5.Controls.Add(Invoice1_Dlg_button);
+            groupBox5.Controls.Add(Invoice1_textBox);
+            groupBox5.Controls.Add(Invoice1_button);
+            groupBox5.Location = new Point(6, 6);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(677, 117);
+            groupBox5.TabIndex = 15;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "Wysłanie jednej faktury";
             // 
             // Invoice1_RefNo_textBox
             // 
-            this.Invoice1_RefNo_textBox.Location = new System.Drawing.Point(98, 83);
-            this.Invoice1_RefNo_textBox.Name = "Invoice1_RefNo_textBox";
-            this.Invoice1_RefNo_textBox.Size = new System.Drawing.Size(354, 23);
-            this.Invoice1_RefNo_textBox.TabIndex = 10;
+            Invoice1_RefNo_textBox.Location = new Point(98, 83);
+            Invoice1_RefNo_textBox.Name = "Invoice1_RefNo_textBox";
+            Invoice1_RefNo_textBox.Size = new Size(354, 23);
+            Invoice1_RefNo_textBox.TabIndex = 10;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 86);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 15);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "ElementRefNo:";
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 86);
+            label6.Name = "label6";
+            label6.Size = new Size(86, 15);
+            label6.TabIndex = 9;
+            label6.Text = "ElementRefNo:";
             // 
             // Invoice1_Dlg_button
             // 
-            this.Invoice1_Dlg_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Invoice1_Dlg_button.Location = new System.Drawing.Point(638, 20);
-            this.Invoice1_Dlg_button.Name = "Invoice1_Dlg_button";
-            this.Invoice1_Dlg_button.Size = new System.Drawing.Size(33, 23);
-            this.Invoice1_Dlg_button.TabIndex = 4;
-            this.Invoice1_Dlg_button.Text = "...";
-            this.Invoice1_Dlg_button.UseVisualStyleBackColor = true;
-            this.Invoice1_Dlg_button.Click += new System.EventHandler(this.Invoice1_Dlg_button_Click);
+            Invoice1_Dlg_button.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Invoice1_Dlg_button.Location = new Point(638, 20);
+            Invoice1_Dlg_button.Name = "Invoice1_Dlg_button";
+            Invoice1_Dlg_button.Size = new Size(33, 23);
+            Invoice1_Dlg_button.TabIndex = 4;
+            Invoice1_Dlg_button.Text = "...";
+            Invoice1_Dlg_button.UseVisualStyleBackColor = true;
+            Invoice1_Dlg_button.Click += Invoice1_Dlg_button_Click;
             // 
             // Invoice1_textBox
             // 
-            this.Invoice1_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Invoice1_textBox.Location = new System.Drawing.Point(6, 22);
-            this.Invoice1_textBox.Name = "Invoice1_textBox";
-            this.Invoice1_textBox.Size = new System.Drawing.Size(626, 23);
-            this.Invoice1_textBox.TabIndex = 3;
+            Invoice1_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            Invoice1_textBox.Location = new Point(6, 22);
+            Invoice1_textBox.Name = "Invoice1_textBox";
+            Invoice1_textBox.Size = new Size(626, 23);
+            Invoice1_textBox.TabIndex = 3;
             // 
             // Invoice1_button
             // 
-            this.Invoice1_button.Location = new System.Drawing.Point(6, 54);
-            this.Invoice1_button.Name = "Invoice1_button";
-            this.Invoice1_button.Size = new System.Drawing.Size(446, 23);
-            this.Invoice1_button.TabIndex = 2;
-            this.Invoice1_button.Text = "Wyślij";
-            this.Invoice1_button.UseVisualStyleBackColor = true;
-            this.Invoice1_button.Click += new System.EventHandler(this.Invoice1_button_Click);
+            Invoice1_button.Location = new Point(6, 54);
+            Invoice1_button.Name = "Invoice1_button";
+            Invoice1_button.Size = new Size(446, 23);
+            Invoice1_button.TabIndex = 2;
+            Invoice1_button.Text = "Wyślij";
+            Invoice1_button.UseVisualStyleBackColor = true;
+            Invoice1_button.Click += Invoice1_button_Click;
             // 
             // groupBox7
             // 
-            this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox7.Controls.Add(this.GetInvoice1_CorrReason_textBox);
-            this.groupBox7.Controls.Add(this.label25);
-            this.groupBox7.Controls.Add(this.GetInvoice1_CorrNumber_textBox);
-            this.groupBox7.Controls.Add(this.label24);
-            this.groupBox7.Controls.Add(this.GetInvoice1AndCorrect_button);
-            this.groupBox7.Controls.Add(this.label22);
-            this.groupBox7.Controls.Add(this.GetInvoice1_FileName_button);
-            this.groupBox7.Controls.Add(this.KSefRefNo_textBox);
-            this.groupBox7.Controls.Add(this.GetInvoice_FileName_textBox);
-            this.groupBox7.Controls.Add(this.label10);
-            this.groupBox7.Controls.Add(this.GetInvoice1_button);
-            this.groupBox7.Controls.Add(this.GetInvoice1_textBox);
-            this.groupBox7.Controls.Add(this.label9);
-            this.groupBox7.Location = new System.Drawing.Point(6, 303);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(677, 280);
-            this.groupBox7.TabIndex = 15;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Pobranie faktury wg ElementRefNo";
+            groupBox7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox7.Controls.Add(GetInvoice1_CorrReason_textBox);
+            groupBox7.Controls.Add(label25);
+            groupBox7.Controls.Add(GetInvoice1_CorrNumber_textBox);
+            groupBox7.Controls.Add(label24);
+            groupBox7.Controls.Add(GetInvoice1AndCorrect_button);
+            groupBox7.Controls.Add(label22);
+            groupBox7.Controls.Add(GetInvoice1_FileName_button);
+            groupBox7.Controls.Add(KSefRefNo_textBox);
+            groupBox7.Controls.Add(GetInvoice_FileName_textBox);
+            groupBox7.Controls.Add(label10);
+            groupBox7.Controls.Add(GetInvoice1_button);
+            groupBox7.Controls.Add(GetInvoice1_textBox);
+            groupBox7.Controls.Add(label9);
+            groupBox7.Location = new Point(6, 303);
+            groupBox7.Name = "groupBox7";
+            groupBox7.Size = new Size(677, 280);
+            groupBox7.TabIndex = 15;
+            groupBox7.TabStop = false;
+            groupBox7.Text = "Pobranie faktury wg ElementRefNo";
             // 
             // GetInvoice1_CorrReason_textBox
             // 
-            this.GetInvoice1_CorrReason_textBox.Location = new System.Drawing.Point(471, 103);
-            this.GetInvoice1_CorrReason_textBox.Name = "GetInvoice1_CorrReason_textBox";
-            this.GetInvoice1_CorrReason_textBox.Size = new System.Drawing.Size(118, 23);
-            this.GetInvoice1_CorrReason_textBox.TabIndex = 20;
-            this.GetInvoice1_CorrReason_textBox.Text = "Błędnie wystawiona faktura";
+            GetInvoice1_CorrReason_textBox.Location = new Point(471, 103);
+            GetInvoice1_CorrReason_textBox.Name = "GetInvoice1_CorrReason_textBox";
+            GetInvoice1_CorrReason_textBox.Size = new Size(118, 23);
+            GetInvoice1_CorrReason_textBox.TabIndex = 20;
+            GetInvoice1_CorrReason_textBox.Text = "Błędnie wystawiona faktura";
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(376, 107);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(89, 15);
-            this.label25.TabIndex = 19;
-            this.label25.Text = "Powód korekty:";
+            label25.AutoSize = true;
+            label25.Location = new Point(376, 107);
+            label25.Name = "label25";
+            label25.Size = new Size(89, 15);
+            label25.TabIndex = 19;
+            label25.Text = "Powód korekty:";
             // 
             // GetInvoice1_CorrNumber_textBox
             // 
-            this.GetInvoice1_CorrNumber_textBox.Location = new System.Drawing.Point(252, 103);
-            this.GetInvoice1_CorrNumber_textBox.Name = "GetInvoice1_CorrNumber_textBox";
-            this.GetInvoice1_CorrNumber_textBox.Size = new System.Drawing.Size(118, 23);
-            this.GetInvoice1_CorrNumber_textBox.TabIndex = 18;
-            this.GetInvoice1_CorrNumber_textBox.Text = "Kor/2022/0001";
+            GetInvoice1_CorrNumber_textBox.Location = new Point(252, 103);
+            GetInvoice1_CorrNumber_textBox.Name = "GetInvoice1_CorrNumber_textBox";
+            GetInvoice1_CorrNumber_textBox.Size = new Size(118, 23);
+            GetInvoice1_CorrNumber_textBox.TabIndex = 18;
+            GetInvoice1_CorrNumber_textBox.Text = "Kor/2022/0001";
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(157, 107);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(89, 15);
-            this.label24.TabIndex = 17;
-            this.label24.Text = "Numer korekty:";
+            label24.AutoSize = true;
+            label24.Location = new Point(157, 107);
+            label24.Name = "label24";
+            label24.Size = new Size(89, 15);
+            label24.TabIndex = 17;
+            label24.Text = "Numer korekty:";
             // 
             // GetInvoice1AndCorrect_button
             // 
-            this.GetInvoice1AndCorrect_button.Location = new System.Drawing.Point(6, 75);
-            this.GetInvoice1AndCorrect_button.Name = "GetInvoice1AndCorrect_button";
-            this.GetInvoice1AndCorrect_button.Size = new System.Drawing.Size(446, 23);
-            this.GetInvoice1AndCorrect_button.TabIndex = 16;
-            this.GetInvoice1AndCorrect_button.Text = "Pobierz fakturę i stwórz korektę \"na zero\"";
-            this.GetInvoice1AndCorrect_button.UseVisualStyleBackColor = true;
-            this.GetInvoice1AndCorrect_button.Click += new System.EventHandler(this.GetInvoice1AndCorrect_button_Click);
+            GetInvoice1AndCorrect_button.Location = new Point(6, 75);
+            GetInvoice1AndCorrect_button.Name = "GetInvoice1AndCorrect_button";
+            GetInvoice1AndCorrect_button.Size = new Size(446, 23);
+            GetInvoice1AndCorrect_button.TabIndex = 16;
+            GetInvoice1AndCorrect_button.Text = "Pobierz fakturę i stwórz korektę \"na zero\"";
+            GetInvoice1AndCorrect_button.UseVisualStyleBackColor = true;
+            GetInvoice1AndCorrect_button.Click += GetInvoice1AndCorrect_button_Click;
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(6, 135);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(68, 15);
-            this.label22.TabIndex = 15;
-            this.label22.Text = "Zapisz jako:";
+            label22.AutoSize = true;
+            label22.Location = new Point(6, 135);
+            label22.Name = "label22";
+            label22.Size = new Size(68, 15);
+            label22.TabIndex = 15;
+            label22.Text = "Zapisz jako:";
             // 
             // GetInvoice1_FileName_button
             // 
-            this.GetInvoice1_FileName_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.GetInvoice1_FileName_button.Location = new System.Drawing.Point(638, 132);
-            this.GetInvoice1_FileName_button.Name = "GetInvoice1_FileName_button";
-            this.GetInvoice1_FileName_button.Size = new System.Drawing.Size(33, 23);
-            this.GetInvoice1_FileName_button.TabIndex = 12;
-            this.GetInvoice1_FileName_button.Text = "...";
-            this.GetInvoice1_FileName_button.UseVisualStyleBackColor = true;
-            this.GetInvoice1_FileName_button.Click += new System.EventHandler(this.GetInvoice1_FileName_button_Click);
+            GetInvoice1_FileName_button.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            GetInvoice1_FileName_button.Location = new Point(638, 132);
+            GetInvoice1_FileName_button.Name = "GetInvoice1_FileName_button";
+            GetInvoice1_FileName_button.Size = new Size(33, 23);
+            GetInvoice1_FileName_button.TabIndex = 12;
+            GetInvoice1_FileName_button.Text = "...";
+            GetInvoice1_FileName_button.UseVisualStyleBackColor = true;
+            GetInvoice1_FileName_button.Click += GetInvoice1_FileName_button_Click;
             // 
             // KSefRefNo_textBox
             // 
-            this.KSefRefNo_textBox.Location = new System.Drawing.Point(98, 22);
-            this.KSefRefNo_textBox.Name = "KSefRefNo_textBox";
-            this.KSefRefNo_textBox.Size = new System.Drawing.Size(354, 23);
-            this.KSefRefNo_textBox.TabIndex = 14;
+            KSefRefNo_textBox.Location = new Point(98, 22);
+            KSefRefNo_textBox.Name = "KSefRefNo_textBox";
+            KSefRefNo_textBox.Size = new Size(354, 23);
+            KSefRefNo_textBox.TabIndex = 14;
             // 
             // GetInvoice_FileName_textBox
             // 
-            this.GetInvoice_FileName_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.GetInvoice_FileName_textBox.Location = new System.Drawing.Point(98, 132);
-            this.GetInvoice_FileName_textBox.Name = "GetInvoice_FileName_textBox";
-            this.GetInvoice_FileName_textBox.Size = new System.Drawing.Size(534, 23);
-            this.GetInvoice_FileName_textBox.TabIndex = 11;
+            GetInvoice_FileName_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            GetInvoice_FileName_textBox.Location = new Point(98, 132);
+            GetInvoice_FileName_textBox.Name = "GetInvoice_FileName_textBox";
+            GetInvoice_FileName_textBox.Size = new Size(534, 23);
+            GetInvoice_FileName_textBox.TabIndex = 11;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 25);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(68, 15);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "KSeFRefNo:";
+            label10.AutoSize = true;
+            label10.Location = new Point(6, 25);
+            label10.Name = "label10";
+            label10.Size = new Size(68, 15);
+            label10.TabIndex = 13;
+            label10.Text = "KSeFRefNo:";
             // 
             // GetInvoice1_button
             // 
-            this.GetInvoice1_button.Location = new System.Drawing.Point(6, 51);
-            this.GetInvoice1_button.Name = "GetInvoice1_button";
-            this.GetInvoice1_button.Size = new System.Drawing.Size(446, 23);
-            this.GetInvoice1_button.TabIndex = 2;
-            this.GetInvoice1_button.Text = "Pobierz fakturę";
-            this.GetInvoice1_button.UseVisualStyleBackColor = true;
-            this.GetInvoice1_button.Click += new System.EventHandler(this.GetInvoice1_button_Click);
+            GetInvoice1_button.Location = new Point(6, 51);
+            GetInvoice1_button.Name = "GetInvoice1_button";
+            GetInvoice1_button.Size = new Size(446, 23);
+            GetInvoice1_button.TabIndex = 2;
+            GetInvoice1_button.Text = "Pobierz fakturę";
+            GetInvoice1_button.UseVisualStyleBackColor = true;
+            GetInvoice1_button.Click += GetInvoice1_button_Click;
             // 
             // GetInvoice1_textBox
             // 
-            this.GetInvoice1_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.GetInvoice1_textBox.Location = new System.Drawing.Point(98, 161);
-            this.GetInvoice1_textBox.Multiline = true;
-            this.GetInvoice1_textBox.Name = "GetInvoice1_textBox";
-            this.GetInvoice1_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.GetInvoice1_textBox.Size = new System.Drawing.Size(573, 113);
-            this.GetInvoice1_textBox.TabIndex = 10;
-            this.GetInvoice1_textBox.WordWrap = false;
+            GetInvoice1_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            GetInvoice1_textBox.Location = new Point(98, 161);
+            GetInvoice1_textBox.Multiline = true;
+            GetInvoice1_textBox.Name = "GetInvoice1_textBox";
+            GetInvoice1_textBox.ScrollBars = ScrollBars.Both;
+            GetInvoice1_textBox.Size = new Size(573, 113);
+            GetInvoice1_textBox.TabIndex = 10;
+            GetInvoice1_textBox.WordWrap = false;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 164);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(94, 15);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Faktura/Korekta:";
+            label9.AutoSize = true;
+            label9.Location = new Point(6, 164);
+            label9.Name = "label9";
+            label9.Size = new Size(94, 15);
+            label9.TabIndex = 9;
+            label9.Text = "Faktura/Korekta:";
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(476, 94);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(694, 634);
-            this.tabControl1.TabIndex = 16;
+            tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Location = new Point(476, 94);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(694, 634);
+            tabControl1.TabIndex = 16;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.groupBox6);
-            this.tabPage1.Controls.Add(this.groupBox5);
-            this.tabPage1.Controls.Add(this.groupBox7);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(686, 606);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Wysyłanie pojedynczych faktur";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            tabPage1.Controls.Add(groupBox6);
+            tabPage1.Controls.Add(groupBox5);
+            tabPage1.Controls.Add(groupBox7);
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(686, 606);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Wysyłanie pojedynczych faktur";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox6
             // 
-            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox6.Controls.Add(this.InvoiceStatus_button);
-            this.groupBox6.Controls.Add(this.InvoiceStatus_textBox);
-            this.groupBox6.Controls.Add(this.label8);
-            this.groupBox6.Location = new System.Drawing.Point(6, 129);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(677, 168);
-            this.groupBox6.TabIndex = 16;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Status faktury wg ElementRefNo";
+            groupBox6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox6.Controls.Add(InvoiceStatus_button);
+            groupBox6.Controls.Add(InvoiceStatus_textBox);
+            groupBox6.Controls.Add(label8);
+            groupBox6.Location = new Point(6, 129);
+            groupBox6.Name = "groupBox6";
+            groupBox6.Size = new Size(677, 168);
+            groupBox6.TabIndex = 16;
+            groupBox6.TabStop = false;
+            groupBox6.Text = "Status faktury wg ElementRefNo";
             // 
             // InvoiceStatus_button
             // 
-            this.InvoiceStatus_button.Location = new System.Drawing.Point(6, 22);
-            this.InvoiceStatus_button.Name = "InvoiceStatus_button";
-            this.InvoiceStatus_button.Size = new System.Drawing.Size(446, 23);
-            this.InvoiceStatus_button.TabIndex = 2;
-            this.InvoiceStatus_button.Text = "Sprawdź status";
-            this.InvoiceStatus_button.UseVisualStyleBackColor = true;
-            this.InvoiceStatus_button.Click += new System.EventHandler(this.InvoiceStatus_button_Click_2);
+            InvoiceStatus_button.Location = new Point(6, 22);
+            InvoiceStatus_button.Name = "InvoiceStatus_button";
+            InvoiceStatus_button.Size = new Size(446, 23);
+            InvoiceStatus_button.TabIndex = 2;
+            InvoiceStatus_button.Text = "Sprawdź status";
+            InvoiceStatus_button.UseVisualStyleBackColor = true;
+            InvoiceStatus_button.Click += InvoiceStatus_button_Click_2;
             // 
             // InvoiceStatus_textBox
             // 
-            this.InvoiceStatus_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.InvoiceStatus_textBox.Location = new System.Drawing.Point(98, 54);
-            this.InvoiceStatus_textBox.Multiline = true;
-            this.InvoiceStatus_textBox.Name = "InvoiceStatus_textBox";
-            this.InvoiceStatus_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.InvoiceStatus_textBox.Size = new System.Drawing.Size(573, 99);
-            this.InvoiceStatus_textBox.TabIndex = 10;
-            this.InvoiceStatus_textBox.WordWrap = false;
+            InvoiceStatus_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            InvoiceStatus_textBox.Location = new Point(98, 54);
+            InvoiceStatus_textBox.Multiline = true;
+            InvoiceStatus_textBox.Name = "InvoiceStatus_textBox";
+            InvoiceStatus_textBox.ScrollBars = ScrollBars.Both;
+            InvoiceStatus_textBox.Size = new Size(573, 99);
+            InvoiceStatus_textBox.TabIndex = 10;
+            InvoiceStatus_textBox.WordWrap = false;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 51);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(42, 15);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Status:";
+            label8.AutoSize = true;
+            label8.Location = new Point(6, 51);
+            label8.Name = "label8";
+            label8.Size = new Size(42, 15);
+            label8.TabIndex = 9;
+            label8.Text = "Status:";
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.groupBox8);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(686, 606);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Odpytywanie";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            tabPage2.Controls.Add(groupBox8);
+            tabPage2.Location = new Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(686, 606);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Odpytywanie";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox8
             // 
-            this.groupBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox8.Controls.Add(this.QueryHeader_Subject2_radioButton);
-            this.groupBox8.Controls.Add(this.QueryHeader_Subject1_radioButton);
-            this.groupBox8.Controls.Add(this.QueryHeader_PageNo_numericUpDown);
-            this.groupBox8.Controls.Add(this.label19);
-            this.groupBox8.Controls.Add(this.QueryHeader_textBox);
-            this.groupBox8.Controls.Add(this.QueryHeader_button);
-            this.groupBox8.Controls.Add(this.QueryHeader_ToDate_dateTimePicker);
-            this.groupBox8.Controls.Add(this.label12);
-            this.groupBox8.Controls.Add(this.QueryHeader_FromDate_dateTimePicker);
-            this.groupBox8.Controls.Add(this.label11);
-            this.groupBox8.Location = new System.Drawing.Point(6, 6);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(674, 594);
-            this.groupBox8.TabIndex = 0;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Lista faktur z okresu (Invoicing date)";
+            groupBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox8.Controls.Add(QueryHeader_Subject2_radioButton);
+            groupBox8.Controls.Add(QueryHeader_Subject1_radioButton);
+            groupBox8.Controls.Add(QueryHeader_PageNo_numericUpDown);
+            groupBox8.Controls.Add(label19);
+            groupBox8.Controls.Add(QueryHeader_textBox);
+            groupBox8.Controls.Add(QueryHeader_button);
+            groupBox8.Controls.Add(QueryHeader_ToDate_dateTimePicker);
+            groupBox8.Controls.Add(label12);
+            groupBox8.Controls.Add(QueryHeader_FromDate_dateTimePicker);
+            groupBox8.Controls.Add(label11);
+            groupBox8.Location = new Point(6, 6);
+            groupBox8.Name = "groupBox8";
+            groupBox8.Size = new Size(674, 594);
+            groupBox8.TabIndex = 0;
+            groupBox8.TabStop = false;
+            groupBox8.Text = "Lista faktur z okresu (Invoicing date)";
             // 
             // QueryHeader_Subject2_radioButton
             // 
-            this.QueryHeader_Subject2_radioButton.AutoSize = true;
-            this.QueryHeader_Subject2_radioButton.Checked = true;
-            this.QueryHeader_Subject2_radioButton.Location = new System.Drawing.Point(325, 54);
-            this.QueryHeader_Subject2_radioButton.Name = "QueryHeader_Subject2_radioButton";
-            this.QueryHeader_Subject2_radioButton.Size = new System.Drawing.Size(119, 19);
-            this.QueryHeader_Subject2_radioButton.TabIndex = 16;
-            this.QueryHeader_Subject2_radioButton.TabStop = true;
-            this.QueryHeader_Subject2_radioButton.Text = "Zakup/otrzymane";
-            this.QueryHeader_Subject2_radioButton.UseVisualStyleBackColor = true;
+            QueryHeader_Subject2_radioButton.AutoSize = true;
+            QueryHeader_Subject2_radioButton.Checked = true;
+            QueryHeader_Subject2_radioButton.Location = new Point(325, 54);
+            QueryHeader_Subject2_radioButton.Name = "QueryHeader_Subject2_radioButton";
+            QueryHeader_Subject2_radioButton.Size = new Size(119, 19);
+            QueryHeader_Subject2_radioButton.TabIndex = 16;
+            QueryHeader_Subject2_radioButton.TabStop = true;
+            QueryHeader_Subject2_radioButton.Text = "Zakup/otrzymane";
+            QueryHeader_Subject2_radioButton.UseVisualStyleBackColor = true;
             // 
             // QueryHeader_Subject1_radioButton
             // 
-            this.QueryHeader_Subject1_radioButton.AutoSize = true;
-            this.QueryHeader_Subject1_radioButton.Location = new System.Drawing.Point(201, 54);
-            this.QueryHeader_Subject1_radioButton.Name = "QueryHeader_Subject1_radioButton";
-            this.QueryHeader_Subject1_radioButton.Size = new System.Drawing.Size(118, 19);
-            this.QueryHeader_Subject1_radioButton.TabIndex = 15;
-            this.QueryHeader_Subject1_radioButton.Text = "Sprzedaż/wysłane";
-            this.QueryHeader_Subject1_radioButton.UseVisualStyleBackColor = true;
+            QueryHeader_Subject1_radioButton.AutoSize = true;
+            QueryHeader_Subject1_radioButton.Location = new Point(201, 54);
+            QueryHeader_Subject1_radioButton.Name = "QueryHeader_Subject1_radioButton";
+            QueryHeader_Subject1_radioButton.Size = new Size(118, 19);
+            QueryHeader_Subject1_radioButton.TabIndex = 15;
+            QueryHeader_Subject1_radioButton.Text = "Sprzedaż/wysłane";
+            QueryHeader_Subject1_radioButton.UseVisualStyleBackColor = true;
             // 
             // QueryHeader_PageNo_numericUpDown
             // 
-            this.QueryHeader_PageNo_numericUpDown.Location = new System.Drawing.Point(66, 53);
-            this.QueryHeader_PageNo_numericUpDown.Name = "QueryHeader_PageNo_numericUpDown";
-            this.QueryHeader_PageNo_numericUpDown.Size = new System.Drawing.Size(101, 23);
-            this.QueryHeader_PageNo_numericUpDown.TabIndex = 14;
+            QueryHeader_PageNo_numericUpDown.Location = new Point(66, 53);
+            QueryHeader_PageNo_numericUpDown.Name = "QueryHeader_PageNo_numericUpDown";
+            QueryHeader_PageNo_numericUpDown.Size = new Size(101, 23);
+            QueryHeader_PageNo_numericUpDown.TabIndex = 14;
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(8, 55);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(44, 15);
-            this.label19.TabIndex = 13;
-            this.label19.Text = "Strona:";
+            label19.AutoSize = true;
+            label19.Location = new Point(8, 55);
+            label19.Name = "label19";
+            label19.Size = new Size(44, 15);
+            label19.TabIndex = 13;
+            label19.Text = "Strona:";
             // 
             // QueryHeader_textBox
             // 
-            this.QueryHeader_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.QueryHeader_textBox.Location = new System.Drawing.Point(6, 111);
-            this.QueryHeader_textBox.Multiline = true;
-            this.QueryHeader_textBox.Name = "QueryHeader_textBox";
-            this.QueryHeader_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.QueryHeader_textBox.Size = new System.Drawing.Size(662, 477);
-            this.QueryHeader_textBox.TabIndex = 12;
-            this.QueryHeader_textBox.WordWrap = false;
+            QueryHeader_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            QueryHeader_textBox.Location = new Point(6, 111);
+            QueryHeader_textBox.Multiline = true;
+            QueryHeader_textBox.Name = "QueryHeader_textBox";
+            QueryHeader_textBox.ScrollBars = ScrollBars.Both;
+            QueryHeader_textBox.Size = new Size(662, 477);
+            QueryHeader_textBox.TabIndex = 12;
+            QueryHeader_textBox.WordWrap = false;
             // 
             // QueryHeader_button
             // 
-            this.QueryHeader_button.Location = new System.Drawing.Point(6, 82);
-            this.QueryHeader_button.Name = "QueryHeader_button";
-            this.QueryHeader_button.Size = new System.Drawing.Size(446, 23);
-            this.QueryHeader_button.TabIndex = 9;
-            this.QueryHeader_button.Text = "Pobierz";
-            this.QueryHeader_button.UseVisualStyleBackColor = true;
-            this.QueryHeader_button.Click += new System.EventHandler(this.QueryHeader_button_Click);
+            QueryHeader_button.Location = new Point(6, 82);
+            QueryHeader_button.Name = "QueryHeader_button";
+            QueryHeader_button.Size = new Size(446, 23);
+            QueryHeader_button.TabIndex = 9;
+            QueryHeader_button.Text = "Pobierz";
+            QueryHeader_button.UseVisualStyleBackColor = true;
+            QueryHeader_button.Click += QueryHeader_button_Click;
             // 
             // QueryHeader_ToDate_dateTimePicker
             // 
-            this.QueryHeader_ToDate_dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.QueryHeader_ToDate_dateTimePicker.Location = new System.Drawing.Point(258, 22);
-            this.QueryHeader_ToDate_dateTimePicker.Name = "QueryHeader_ToDate_dateTimePicker";
-            this.QueryHeader_ToDate_dateTimePicker.Size = new System.Drawing.Size(101, 23);
-            this.QueryHeader_ToDate_dateTimePicker.TabIndex = 3;
+            QueryHeader_ToDate_dateTimePicker.Format = DateTimePickerFormat.Short;
+            QueryHeader_ToDate_dateTimePicker.Location = new Point(258, 22);
+            QueryHeader_ToDate_dateTimePicker.Name = "QueryHeader_ToDate_dateTimePicker";
+            QueryHeader_ToDate_dateTimePicker.Size = new Size(101, 23);
+            QueryHeader_ToDate_dateTimePicker.TabIndex = 3;
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(201, 28);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(51, 15);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Do dnia:";
+            label12.AutoSize = true;
+            label12.Location = new Point(201, 28);
+            label12.Name = "label12";
+            label12.Size = new Size(51, 15);
+            label12.TabIndex = 2;
+            label12.Text = "Do dnia:";
             // 
             // QueryHeader_FromDate_dateTimePicker
             // 
-            this.QueryHeader_FromDate_dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.QueryHeader_FromDate_dateTimePicker.Location = new System.Drawing.Point(66, 22);
-            this.QueryHeader_FromDate_dateTimePicker.Name = "QueryHeader_FromDate_dateTimePicker";
-            this.QueryHeader_FromDate_dateTimePicker.Size = new System.Drawing.Size(101, 23);
-            this.QueryHeader_FromDate_dateTimePicker.TabIndex = 1;
+            QueryHeader_FromDate_dateTimePicker.Format = DateTimePickerFormat.Short;
+            QueryHeader_FromDate_dateTimePicker.Location = new Point(66, 22);
+            QueryHeader_FromDate_dateTimePicker.Name = "QueryHeader_FromDate_dateTimePicker";
+            QueryHeader_FromDate_dateTimePicker.Size = new Size(101, 23);
+            QueryHeader_FromDate_dateTimePicker.TabIndex = 1;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(8, 28);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 15);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Od dnia:";
+            label11.AutoSize = true;
+            label11.Location = new Point(8, 28);
+            label11.Name = "label11";
+            label11.Size = new Size(52, 15);
+            label11.TabIndex = 0;
+            label11.Text = "Od dnia:";
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.groupBox11);
-            this.tabPage4.Controls.Add(this.groupBox10);
-            this.tabPage4.Controls.Add(this.groupBox9);
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(686, 606);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Pobieranie plików";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            tabPage4.Controls.Add(groupBox11);
+            tabPage4.Controls.Add(groupBox10);
+            tabPage4.Controls.Add(groupBox9);
+            tabPage4.Location = new Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Size = new Size(686, 606);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "Pobieranie plików";
+            tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox11
             // 
-            this.groupBox11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox11.Controls.Add(this.label18);
-            this.groupBox11.Controls.Add(this.QueryFiles_File_button);
-            this.groupBox11.Controls.Add(this.QueryFiles_File_textBox);
-            this.groupBox11.Controls.Add(this.QueryFiles_Get_button);
-            this.groupBox11.Location = new System.Drawing.Point(3, 364);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(677, 94);
-            this.groupBox11.TabIndex = 17;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Pobieranie faktur";
+            groupBox11.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox11.Controls.Add(label18);
+            groupBox11.Controls.Add(QueryFiles_File_button);
+            groupBox11.Controls.Add(QueryFiles_File_textBox);
+            groupBox11.Controls.Add(QueryFiles_Get_button);
+            groupBox11.Location = new Point(3, 364);
+            groupBox11.Name = "groupBox11";
+            groupBox11.Size = new Size(677, 94);
+            groupBox11.TabIndex = 17;
+            groupBox11.TabStop = false;
+            groupBox11.Text = "Pobieranie faktur";
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 24);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(85, 15);
-            this.label18.TabIndex = 11;
-            this.label18.Text = "Plik wynikowy:";
+            label18.AutoSize = true;
+            label18.Location = new Point(6, 24);
+            label18.Name = "label18";
+            label18.Size = new Size(85, 15);
+            label18.TabIndex = 11;
+            label18.Text = "Plik wynikowy:";
             // 
             // QueryFiles_File_button
             // 
-            this.QueryFiles_File_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.QueryFiles_File_button.Location = new System.Drawing.Point(638, 19);
-            this.QueryFiles_File_button.Name = "QueryFiles_File_button";
-            this.QueryFiles_File_button.Size = new System.Drawing.Size(33, 23);
-            this.QueryFiles_File_button.TabIndex = 4;
-            this.QueryFiles_File_button.Text = "...";
-            this.QueryFiles_File_button.UseVisualStyleBackColor = true;
-            this.QueryFiles_File_button.Click += new System.EventHandler(this.QueryFiles_File_button_Click);
+            QueryFiles_File_button.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            QueryFiles_File_button.Location = new Point(638, 19);
+            QueryFiles_File_button.Name = "QueryFiles_File_button";
+            QueryFiles_File_button.Size = new Size(33, 23);
+            QueryFiles_File_button.TabIndex = 4;
+            QueryFiles_File_button.Text = "...";
+            QueryFiles_File_button.UseVisualStyleBackColor = true;
+            QueryFiles_File_button.Click += QueryFiles_File_button_Click;
             // 
             // QueryFiles_File_textBox
             // 
-            this.QueryFiles_File_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.QueryFiles_File_textBox.Location = new System.Drawing.Point(98, 20);
-            this.QueryFiles_File_textBox.Name = "QueryFiles_File_textBox";
-            this.QueryFiles_File_textBox.Size = new System.Drawing.Size(534, 23);
-            this.QueryFiles_File_textBox.TabIndex = 3;
+            QueryFiles_File_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            QueryFiles_File_textBox.Location = new Point(98, 20);
+            QueryFiles_File_textBox.Name = "QueryFiles_File_textBox";
+            QueryFiles_File_textBox.Size = new Size(534, 23);
+            QueryFiles_File_textBox.TabIndex = 3;
             // 
             // QueryFiles_Get_button
             // 
-            this.QueryFiles_Get_button.Location = new System.Drawing.Point(6, 54);
-            this.QueryFiles_Get_button.Name = "QueryFiles_Get_button";
-            this.QueryFiles_Get_button.Size = new System.Drawing.Size(538, 23);
-            this.QueryFiles_Get_button.TabIndex = 2;
-            this.QueryFiles_Get_button.Text = "pobierz";
-            this.QueryFiles_Get_button.UseVisualStyleBackColor = true;
-            this.QueryFiles_Get_button.Click += new System.EventHandler(this.QueryFiles_Get_button_Click);
+            QueryFiles_Get_button.Location = new Point(6, 54);
+            QueryFiles_Get_button.Name = "QueryFiles_Get_button";
+            QueryFiles_Get_button.Size = new Size(538, 23);
+            QueryFiles_Get_button.TabIndex = 2;
+            QueryFiles_Get_button.Text = "pobierz";
+            QueryFiles_Get_button.UseVisualStyleBackColor = true;
+            QueryFiles_Get_button.Click += QueryFiles_Get_button_Click;
             // 
             // groupBox10
             // 
-            this.groupBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox10.Controls.Add(this.QueryFiles_Status_button);
-            this.groupBox10.Controls.Add(this.QueryFiles_Status_textBox);
-            this.groupBox10.Controls.Add(this.label16);
-            this.groupBox10.Location = new System.Drawing.Point(3, 126);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(677, 232);
-            this.groupBox10.TabIndex = 16;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Status faktury wg QueryElementReferenceNumber :";
+            groupBox10.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox10.Controls.Add(QueryFiles_Status_button);
+            groupBox10.Controls.Add(QueryFiles_Status_textBox);
+            groupBox10.Controls.Add(label16);
+            groupBox10.Location = new Point(3, 126);
+            groupBox10.Name = "groupBox10";
+            groupBox10.Size = new Size(677, 232);
+            groupBox10.TabIndex = 16;
+            groupBox10.TabStop = false;
+            groupBox10.Text = "Status faktury wg QueryElementReferenceNumber :";
             // 
             // QueryFiles_Status_button
             // 
-            this.QueryFiles_Status_button.Location = new System.Drawing.Point(6, 22);
-            this.QueryFiles_Status_button.Name = "QueryFiles_Status_button";
-            this.QueryFiles_Status_button.Size = new System.Drawing.Size(564, 23);
-            this.QueryFiles_Status_button.TabIndex = 2;
-            this.QueryFiles_Status_button.Text = "Sprawdź status";
-            this.QueryFiles_Status_button.UseVisualStyleBackColor = true;
-            this.QueryFiles_Status_button.Click += new System.EventHandler(this.QueryFiles_Status_button_Click);
+            QueryFiles_Status_button.Location = new Point(6, 22);
+            QueryFiles_Status_button.Name = "QueryFiles_Status_button";
+            QueryFiles_Status_button.Size = new Size(564, 23);
+            QueryFiles_Status_button.TabIndex = 2;
+            QueryFiles_Status_button.Text = "Sprawdź status";
+            QueryFiles_Status_button.UseVisualStyleBackColor = true;
+            QueryFiles_Status_button.Click += QueryFiles_Status_button_Click;
             // 
             // QueryFiles_Status_textBox
             // 
-            this.QueryFiles_Status_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.QueryFiles_Status_textBox.Location = new System.Drawing.Point(98, 54);
-            this.QueryFiles_Status_textBox.Multiline = true;
-            this.QueryFiles_Status_textBox.Name = "QueryFiles_Status_textBox";
-            this.QueryFiles_Status_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.QueryFiles_Status_textBox.Size = new System.Drawing.Size(573, 172);
-            this.QueryFiles_Status_textBox.TabIndex = 10;
-            this.QueryFiles_Status_textBox.WordWrap = false;
+            QueryFiles_Status_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            QueryFiles_Status_textBox.Location = new Point(98, 54);
+            QueryFiles_Status_textBox.Multiline = true;
+            QueryFiles_Status_textBox.Name = "QueryFiles_Status_textBox";
+            QueryFiles_Status_textBox.ScrollBars = ScrollBars.Both;
+            QueryFiles_Status_textBox.Size = new Size(573, 172);
+            QueryFiles_Status_textBox.TabIndex = 10;
+            QueryFiles_Status_textBox.WordWrap = false;
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 51);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(42, 15);
-            this.label16.TabIndex = 9;
-            this.label16.Text = "Status:";
+            label16.AutoSize = true;
+            label16.Location = new Point(6, 51);
+            label16.Name = "label16";
+            label16.Size = new Size(42, 15);
+            label16.TabIndex = 9;
+            label16.Text = "Status:";
             // 
             // groupBox9
             // 
-            this.groupBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox9.Controls.Add(this.QueryFiles_RefNo_textBox);
-            this.groupBox9.Controls.Add(this.label15);
-            this.groupBox9.Controls.Add(this.QueryFiles_Init_button);
-            this.groupBox9.Controls.Add(this.QueryFiles_ToDate_dateTimePicker);
-            this.groupBox9.Controls.Add(this.label13);
-            this.groupBox9.Controls.Add(this.QueryFiles_FromDate_dateTimePicker);
-            this.groupBox9.Controls.Add(this.label14);
-            this.groupBox9.Location = new System.Drawing.Point(3, 3);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(674, 117);
-            this.groupBox9.TabIndex = 14;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Incrementalne pobranie plików (AcquisitionTimestamp)";
+            groupBox9.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox9.Controls.Add(QueryFiles_RefNo_textBox);
+            groupBox9.Controls.Add(label15);
+            groupBox9.Controls.Add(QueryFiles_Init_button);
+            groupBox9.Controls.Add(QueryFiles_ToDate_dateTimePicker);
+            groupBox9.Controls.Add(label13);
+            groupBox9.Controls.Add(QueryFiles_FromDate_dateTimePicker);
+            groupBox9.Controls.Add(label14);
+            groupBox9.Location = new Point(3, 3);
+            groupBox9.Name = "groupBox9";
+            groupBox9.Size = new Size(674, 117);
+            groupBox9.TabIndex = 14;
+            groupBox9.TabStop = false;
+            groupBox9.Text = "Incrementalne pobranie plików (AcquisitionTimestamp)";
             // 
             // QueryFiles_RefNo_textBox
             // 
-            this.QueryFiles_RefNo_textBox.Location = new System.Drawing.Point(201, 80);
-            this.QueryFiles_RefNo_textBox.Name = "QueryFiles_RefNo_textBox";
-            this.QueryFiles_RefNo_textBox.Size = new System.Drawing.Size(354, 23);
-            this.QueryFiles_RefNo_textBox.TabIndex = 13;
+            QueryFiles_RefNo_textBox.Location = new Point(201, 80);
+            QueryFiles_RefNo_textBox.Name = "QueryFiles_RefNo_textBox";
+            QueryFiles_RefNo_textBox.Size = new Size(354, 23);
+            QueryFiles_RefNo_textBox.TabIndex = 13;
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(11, 83);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(184, 15);
-            this.label15.TabIndex = 10;
-            this.label15.Text = "QueryElementReferenceNumber :";
+            label15.AutoSize = true;
+            label15.Location = new Point(11, 83);
+            label15.Name = "label15";
+            label15.Size = new Size(184, 15);
+            label15.TabIndex = 10;
+            label15.Text = "QueryElementReferenceNumber :";
             // 
             // QueryFiles_Init_button
             // 
-            this.QueryFiles_Init_button.Location = new System.Drawing.Point(6, 51);
-            this.QueryFiles_Init_button.Name = "QueryFiles_Init_button";
-            this.QueryFiles_Init_button.Size = new System.Drawing.Size(564, 23);
-            this.QueryFiles_Init_button.TabIndex = 9;
-            this.QueryFiles_Init_button.Text = "Init";
-            this.QueryFiles_Init_button.UseVisualStyleBackColor = true;
-            this.QueryFiles_Init_button.Click += new System.EventHandler(this.QueryFiles_Init_button_Click_1);
+            QueryFiles_Init_button.Location = new Point(6, 51);
+            QueryFiles_Init_button.Name = "QueryFiles_Init_button";
+            QueryFiles_Init_button.Size = new Size(564, 23);
+            QueryFiles_Init_button.TabIndex = 9;
+            QueryFiles_Init_button.Text = "Init";
+            QueryFiles_Init_button.UseVisualStyleBackColor = true;
+            QueryFiles_Init_button.Click += QueryFiles_Init_button_Click_1;
             // 
             // QueryFiles_ToDate_dateTimePicker
             // 
-            this.QueryFiles_ToDate_dateTimePicker.CustomFormat = "yyyy-MM-dd HH:mm:ss";
-            this.QueryFiles_ToDate_dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.QueryFiles_ToDate_dateTimePicker.Location = new System.Drawing.Point(281, 22);
-            this.QueryFiles_ToDate_dateTimePicker.Name = "QueryFiles_ToDate_dateTimePicker";
-            this.QueryFiles_ToDate_dateTimePicker.Size = new System.Drawing.Size(150, 23);
-            this.QueryFiles_ToDate_dateTimePicker.TabIndex = 3;
+            QueryFiles_ToDate_dateTimePicker.CustomFormat = "yyyy-MM-dd HH:mm:ss";
+            QueryFiles_ToDate_dateTimePicker.Format = DateTimePickerFormat.Custom;
+            QueryFiles_ToDate_dateTimePicker.Location = new Point(281, 22);
+            QueryFiles_ToDate_dateTimePicker.Name = "QueryFiles_ToDate_dateTimePicker";
+            QueryFiles_ToDate_dateTimePicker.Size = new Size(150, 23);
+            QueryFiles_ToDate_dateTimePicker.TabIndex = 3;
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(224, 28);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 15);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Do dnia:";
+            label13.AutoSize = true;
+            label13.Location = new Point(224, 28);
+            label13.Name = "label13";
+            label13.Size = new Size(51, 15);
+            label13.TabIndex = 2;
+            label13.Text = "Do dnia:";
             // 
             // QueryFiles_FromDate_dateTimePicker
             // 
-            this.QueryFiles_FromDate_dateTimePicker.CustomFormat = "yyyy-MM-dd HH:mm:ss";
-            this.QueryFiles_FromDate_dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.QueryFiles_FromDate_dateTimePicker.Location = new System.Drawing.Point(66, 22);
-            this.QueryFiles_FromDate_dateTimePicker.Name = "QueryFiles_FromDate_dateTimePicker";
-            this.QueryFiles_FromDate_dateTimePicker.Size = new System.Drawing.Size(152, 23);
-            this.QueryFiles_FromDate_dateTimePicker.TabIndex = 1;
+            QueryFiles_FromDate_dateTimePicker.CustomFormat = "yyyy-MM-dd HH:mm:ss";
+            QueryFiles_FromDate_dateTimePicker.Format = DateTimePickerFormat.Custom;
+            QueryFiles_FromDate_dateTimePicker.Location = new Point(66, 22);
+            QueryFiles_FromDate_dateTimePicker.Name = "QueryFiles_FromDate_dateTimePicker";
+            QueryFiles_FromDate_dateTimePicker.Size = new Size(152, 23);
+            QueryFiles_FromDate_dateTimePicker.TabIndex = 1;
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(8, 28);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(52, 15);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Od dnia:";
+            label14.AutoSize = true;
+            label14.Location = new Point(8, 28);
+            label14.Name = "label14";
+            label14.Size = new Size(52, 15);
+            label14.TabIndex = 0;
+            label14.Text = "Od dnia:";
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.groupBox13);
-            this.tabPage3.Controls.Add(this.groupBox12);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(686, 606);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Wysyłanie batch-em (nie wymaga sesji)";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            tabPage3.Controls.Add(groupBox13);
+            tabPage3.Controls.Add(groupBox12);
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Size = new Size(686, 606);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Wysyłanie batch-em (nie wymaga sesji)";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // groupBox13
             // 
-            this.groupBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox13.Controls.Add(this.label21);
-            this.groupBox13.Controls.Add(this.Batch_SignFile_button);
-            this.groupBox13.Controls.Add(this.Batch_SignFile_textBox);
-            this.groupBox13.Controls.Add(this.Batch_Send_button);
-            this.groupBox13.Location = new System.Drawing.Point(3, 118);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(680, 84);
-            this.groupBox13.TabIndex = 20;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Wysłanie podpisanego pliku";
+            groupBox13.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox13.Controls.Add(label21);
+            groupBox13.Controls.Add(Batch_SignFile_button);
+            groupBox13.Controls.Add(Batch_SignFile_textBox);
+            groupBox13.Controls.Add(Batch_Send_button);
+            groupBox13.Location = new Point(3, 118);
+            groupBox13.Name = "groupBox13";
+            groupBox13.Size = new Size(680, 84);
+            groupBox13.TabIndex = 20;
+            groupBox13.TabStop = false;
+            groupBox13.Text = "Wysłanie podpisanego pliku";
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(8, 23);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(110, 15);
-            this.label21.TabIndex = 19;
-            this.label21.Text = "Podpisany plik xml:";
+            label21.AutoSize = true;
+            label21.Location = new Point(8, 23);
+            label21.Name = "label21";
+            label21.Size = new Size(110, 15);
+            label21.TabIndex = 19;
+            label21.Text = "Podpisany plik xml:";
             // 
             // Batch_SignFile_button
             // 
-            this.Batch_SignFile_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Batch_SignFile_button.Location = new System.Drawing.Point(640, 18);
-            this.Batch_SignFile_button.Name = "Batch_SignFile_button";
-            this.Batch_SignFile_button.Size = new System.Drawing.Size(33, 23);
-            this.Batch_SignFile_button.TabIndex = 18;
-            this.Batch_SignFile_button.Text = "...";
-            this.Batch_SignFile_button.UseVisualStyleBackColor = true;
-            this.Batch_SignFile_button.Click += new System.EventHandler(this.Batch_SignFile_button_Click);
+            Batch_SignFile_button.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Batch_SignFile_button.Location = new Point(640, 18);
+            Batch_SignFile_button.Name = "Batch_SignFile_button";
+            Batch_SignFile_button.Size = new Size(33, 23);
+            Batch_SignFile_button.TabIndex = 18;
+            Batch_SignFile_button.Text = "...";
+            Batch_SignFile_button.UseVisualStyleBackColor = true;
+            Batch_SignFile_button.Click += Batch_SignFile_button_Click;
             // 
             // Batch_SignFile_textBox
             // 
-            this.Batch_SignFile_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Batch_SignFile_textBox.Location = new System.Drawing.Point(134, 19);
-            this.Batch_SignFile_textBox.Name = "Batch_SignFile_textBox";
-            this.Batch_SignFile_textBox.Size = new System.Drawing.Size(500, 23);
-            this.Batch_SignFile_textBox.TabIndex = 17;
+            Batch_SignFile_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            Batch_SignFile_textBox.Location = new Point(134, 19);
+            Batch_SignFile_textBox.Name = "Batch_SignFile_textBox";
+            Batch_SignFile_textBox.Size = new Size(500, 23);
+            Batch_SignFile_textBox.TabIndex = 17;
             // 
             // Batch_Send_button
             // 
-            this.Batch_Send_button.Location = new System.Drawing.Point(6, 48);
-            this.Batch_Send_button.Name = "Batch_Send_button";
-            this.Batch_Send_button.Size = new System.Drawing.Size(564, 23);
-            this.Batch_Send_button.TabIndex = 14;
-            this.Batch_Send_button.Text = "Wyslij podpisany plik i części pliku .zip";
-            this.Batch_Send_button.UseVisualStyleBackColor = true;
-            this.Batch_Send_button.Click += new System.EventHandler(this.Batch_Send_button_Click);
+            Batch_Send_button.Location = new Point(6, 48);
+            Batch_Send_button.Name = "Batch_Send_button";
+            Batch_Send_button.Size = new Size(564, 23);
+            Batch_Send_button.TabIndex = 14;
+            Batch_Send_button.Text = "Wyslij podpisany plik i części pliku .zip";
+            Batch_Send_button.UseVisualStyleBackColor = true;
+            Batch_Send_button.Click += Batch_Send_button_Click;
             // 
             // groupBox12
             // 
-            this.groupBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox12.Controls.Add(this.label23);
-            this.groupBox12.Controls.Add(this.Batch_MaxSize_numericUpDown);
-            this.groupBox12.Controls.Add(this.label17);
-            this.groupBox12.Controls.Add(this.label20);
-            this.groupBox12.Controls.Add(this.Batch_ZipFile_button);
-            this.groupBox12.Controls.Add(this.Batch_ZipFile_textBox);
-            this.groupBox12.Controls.Add(this.Batch_Init_button);
-            this.groupBox12.Location = new System.Drawing.Point(3, 3);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(680, 109);
-            this.groupBox12.TabIndex = 0;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Tworzenie pliku xml do podpisu:";
+            groupBox12.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox12.Controls.Add(label23);
+            groupBox12.Controls.Add(Batch_MaxSize_numericUpDown);
+            groupBox12.Controls.Add(label17);
+            groupBox12.Controls.Add(label20);
+            groupBox12.Controls.Add(Batch_ZipFile_button);
+            groupBox12.Controls.Add(Batch_ZipFile_textBox);
+            groupBox12.Controls.Add(Batch_Init_button);
+            groupBox12.Location = new Point(3, 3);
+            groupBox12.Name = "groupBox12";
+            groupBox12.Size = new Size(680, 109);
+            groupBox12.TabIndex = 0;
+            groupBox12.TabStop = false;
+            groupBox12.Text = "Tworzenie pliku xml do podpisu:";
             // 
             // label23
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(195, 53);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(137, 15);
-            this.label23.TabIndex = 22;
-            this.label23.Text = "KB (do 50MB = 51200KB)";
+            label23.AutoSize = true;
+            label23.Location = new Point(195, 53);
+            label23.Name = "label23";
+            label23.Size = new Size(137, 15);
+            label23.TabIndex = 22;
+            label23.Text = "KB (do 50MB = 51200KB)";
             // 
             // Batch_MaxSize_numericUpDown
             // 
-            this.Batch_MaxSize_numericUpDown.Location = new System.Drawing.Point(134, 48);
-            this.Batch_MaxSize_numericUpDown.Maximum = new decimal(new int[] {
-            50000,
-            0,
-            0,
-            0});
-            this.Batch_MaxSize_numericUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.Batch_MaxSize_numericUpDown.Name = "Batch_MaxSize_numericUpDown";
-            this.Batch_MaxSize_numericUpDown.Size = new System.Drawing.Size(55, 23);
-            this.Batch_MaxSize_numericUpDown.TabIndex = 21;
-            this.Batch_MaxSize_numericUpDown.Value = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
+            Batch_MaxSize_numericUpDown.Location = new Point(134, 48);
+            Batch_MaxSize_numericUpDown.Maximum = new decimal(new int[] { 50000, 0, 0, 0 });
+            Batch_MaxSize_numericUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            Batch_MaxSize_numericUpDown.Name = "Batch_MaxSize_numericUpDown";
+            Batch_MaxSize_numericUpDown.Size = new Size(55, 23);
+            Batch_MaxSize_numericUpDown.TabIndex = 21;
+            Batch_MaxSize_numericUpDown.Value = new decimal(new int[] { 25, 0, 0, 0 });
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(8, 50);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(115, 15);
-            this.label17.TabIndex = 20;
-            this.label17.Text = "Max wielkość części:";
+            label17.AutoSize = true;
+            label17.Location = new Point(8, 50);
+            label17.Name = "label17";
+            label17.Size = new Size(115, 15);
+            label17.TabIndex = 20;
+            label17.Text = "Max wielkość części:";
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(8, 23);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(120, 15);
-            this.label20.TabIndex = 19;
-            this.label20.Text = "Plik zip z plikami xml:";
+            label20.AutoSize = true;
+            label20.Location = new Point(8, 23);
+            label20.Name = "label20";
+            label20.Size = new Size(120, 15);
+            label20.TabIndex = 19;
+            label20.Text = "Plik zip z plikami xml:";
             // 
             // Batch_ZipFile_button
             // 
-            this.Batch_ZipFile_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Batch_ZipFile_button.Location = new System.Drawing.Point(640, 18);
-            this.Batch_ZipFile_button.Name = "Batch_ZipFile_button";
-            this.Batch_ZipFile_button.Size = new System.Drawing.Size(33, 23);
-            this.Batch_ZipFile_button.TabIndex = 18;
-            this.Batch_ZipFile_button.Text = "...";
-            this.Batch_ZipFile_button.UseVisualStyleBackColor = true;
-            this.Batch_ZipFile_button.Click += new System.EventHandler(this.Batch_ZipFile_button_Click);
+            Batch_ZipFile_button.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Batch_ZipFile_button.Location = new Point(640, 18);
+            Batch_ZipFile_button.Name = "Batch_ZipFile_button";
+            Batch_ZipFile_button.Size = new Size(33, 23);
+            Batch_ZipFile_button.TabIndex = 18;
+            Batch_ZipFile_button.Text = "...";
+            Batch_ZipFile_button.UseVisualStyleBackColor = true;
+            Batch_ZipFile_button.Click += Batch_ZipFile_button_Click;
             // 
             // Batch_ZipFile_textBox
             // 
-            this.Batch_ZipFile_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Batch_ZipFile_textBox.Location = new System.Drawing.Point(134, 19);
-            this.Batch_ZipFile_textBox.Name = "Batch_ZipFile_textBox";
-            this.Batch_ZipFile_textBox.Size = new System.Drawing.Size(500, 23);
-            this.Batch_ZipFile_textBox.TabIndex = 17;
+            Batch_ZipFile_textBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            Batch_ZipFile_textBox.Location = new Point(134, 19);
+            Batch_ZipFile_textBox.Name = "Batch_ZipFile_textBox";
+            Batch_ZipFile_textBox.Size = new Size(500, 23);
+            Batch_ZipFile_textBox.TabIndex = 17;
             // 
             // Batch_Init_button
             // 
-            this.Batch_Init_button.Location = new System.Drawing.Point(8, 77);
-            this.Batch_Init_button.Name = "Batch_Init_button";
-            this.Batch_Init_button.Size = new System.Drawing.Size(562, 23);
-            this.Batch_Init_button.TabIndex = 14;
-            this.Batch_Init_button.Text = "Dziel plik .zip na części i twórz plik .xml do podpisania";
-            this.Batch_Init_button.UseVisualStyleBackColor = true;
-            this.Batch_Init_button.Click += new System.EventHandler(this.Batch_Init_button_Click);
+            Batch_Init_button.Location = new Point(8, 77);
+            Batch_Init_button.Name = "Batch_Init_button";
+            Batch_Init_button.Size = new Size(562, 23);
+            Batch_Init_button.TabIndex = 14;
+            Batch_Init_button.Text = "Dziel plik .zip na części i twórz plik .xml do podpisania";
+            Batch_Init_button.UseVisualStyleBackColor = true;
+            Batch_Init_button.Click += Batch_Init_button_Click;
             // 
             // Configuration_button
             // 
-            this.Configuration_button.Location = new System.Drawing.Point(14, 42);
-            this.Configuration_button.Name = "Configuration_button";
-            this.Configuration_button.Size = new System.Drawing.Size(75, 23);
-            this.Configuration_button.TabIndex = 17;
-            this.Configuration_button.Text = "Zmień...";
-            this.Configuration_button.UseVisualStyleBackColor = true;
-            this.Configuration_button.Click += new System.EventHandler(this.Configuration_button_Click);
+            Configuration_button.Location = new Point(14, 42);
+            Configuration_button.Name = "Configuration_button";
+            Configuration_button.Size = new Size(75, 23);
+            Configuration_button.TabIndex = 17;
+            Configuration_button.Text = "Zmień...";
+            Configuration_button.UseVisualStyleBackColor = true;
+            Configuration_button.Click += Configuration_button_Click;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1194, 740);
-            this.Controls.Add(this.Configuration_button);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.Configuration_listBox);
-            this.Controls.Add(this.label1);
-            this.Name = "MainForm";
-            this.Text = "KSeF by Gbb Software";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.Shown += new System.EventHandler(this.MainForm_Shown);
-            ((System.ComponentModel.ISupportInitialize)(this.configurationBindingSource)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.QueryHeader_PageNo_numericUpDown)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Batch_MaxSize_numericUpDown)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1194, 740);
+            Controls.Add(Configuration_button);
+            Controls.Add(tabControl1);
+            Controls.Add(groupBox4);
+            Controls.Add(groupBox3);
+            Controls.Add(groupBox2);
+            Controls.Add(groupBox1);
+            Controls.Add(Configuration_listBox);
+            Controls.Add(label1);
+            Name = "MainForm";
+            Text = "KSeF by Gbb Software";
+            Load += Form1_Load;
+            Shown += MainForm_Shown;
+            ((System.ComponentModel.ISupportInitialize)configurationBindingSource).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
+            groupBox7.ResumeLayout(false);
+            groupBox7.PerformLayout();
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            groupBox6.ResumeLayout(false);
+            groupBox6.PerformLayout();
+            tabPage2.ResumeLayout(false);
+            groupBox8.ResumeLayout(false);
+            groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)QueryHeader_PageNo_numericUpDown).EndInit();
+            tabPage4.ResumeLayout(false);
+            groupBox11.ResumeLayout(false);
+            groupBox11.PerformLayout();
+            groupBox10.ResumeLayout(false);
+            groupBox10.PerformLayout();
+            groupBox9.ResumeLayout(false);
+            groupBox9.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            groupBox13.ResumeLayout(false);
+            groupBox13.PerformLayout();
+            groupBox12.ResumeLayout(false);
+            groupBox12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Batch_MaxSize_numericUpDown).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -1283,5 +1273,7 @@
         private Label label24;
         private Label label26;
         private Button Configuration_button;
+        private RadioButton FA2;
+        private RadioButton FA1;
     }
 }

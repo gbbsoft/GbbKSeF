@@ -54,7 +54,7 @@ namespace TestKSeF
         }
 
         public static Stream Create_InitSessionTokenRequest(string Challenge,
-                                        string NIP, string EncryptedToken)
+                                        string NIP, string EncryptedToken, bool IsFA2)
         {
             MemoryStream ms = new MemoryStream();
 
@@ -65,6 +65,8 @@ namespace TestKSeF
             XmlWriter w = XmlWriter.Create(ms, sett);
             w.WriteStartDocument(true);
 
+            string SystemCode = IsFA2 ? "FA (2)" : "FA (1)";
+            string TargetNamespace = IsFA2 ? "http://crd.gov.pl/wzor/2023/06/29/12648/" : "http://crd.gov.pl/wzor/2021/11/29/11089/";
             const string NS2 = "http://ksef.mf.gov.pl/schema/gtw/svc/types/2021/10/01/0001";
             const string NS3 = "http://ksef.mf.gov.pl/schema/gtw/svc/online/auth/request/2021/10/01/0001";
             const string XSI = "http://www.w3.org/2001/XMLSchema-instance";
@@ -100,9 +102,9 @@ namespace TestKSeF
                         w.WriteElementString("Service", NS2, "KSeF");
                         w.WriteStartElement("FormCode", NS2);
                         {
-                            w.WriteElementString("SystemCode", NS2, "FA (1)");
+                            w.WriteElementString("SystemCode", NS2, SystemCode);
                             w.WriteElementString("SchemaVersion", NS2, "1-0E");
-                            w.WriteElementString("TargetNamespace", NS2, "http://crd.gov.pl/wzor/2021/11/29/11089/");
+                            w.WriteElementString("TargetNamespace", NS2, TargetNamespace);
                             w.WriteElementString("Value", NS2, "FA");
                         }
                         w.WriteEndElement(); // FormCode
@@ -121,11 +123,6 @@ namespace TestKSeF
             w.WriteEndElement(); // InitSessionTokenRequest
             w.WriteEndDocument();
             w.Close();
-
-#if DEBUG
-            s = Encoding.UTF8.GetString(ms.GetBuffer());
-            File.WriteAllText(Path.Combine(Path.GetTempPath(), "!InitSessionTokenRequest.xml"), s);
-#endif
 
             ms.Position = 0;
             return ms;

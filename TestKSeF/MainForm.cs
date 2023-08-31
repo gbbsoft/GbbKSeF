@@ -111,7 +111,7 @@ namespace TestKSeF
                 var resp = (AuthorisationChallengeResponse)ret.Value;
                 this.Challenge_textBox.Text = resp.Challenge;
                 Challenge_Timestamp = resp.Timestamp;
-                this.Timestamp_textBox.Text = Challenge_Timestamp.LocalDateTime.ToString() ;
+                this.Timestamp_textBox.Text = Challenge_Timestamp.LocalDateTime.ToString();
             }
             catch (Exception ex)
             {
@@ -126,12 +126,13 @@ namespace TestKSeF
                 ArgumentNullException.ThrowIfNull(Client);
 
                 ConfigurationLine CurrConf = (ConfigurationLine)this.Configuration_listBox.SelectedItem;
+                bool IsFA2 = this.FA2.Checked;
 
                 // create encrypted token
                 string EncryptedToken = KSeFHelpers.Create_EncryptedToken(CurrConf.Token, CurrConf.PublicKey, Challenge_Timestamp);
 
                 // create InitSessionTokenRequest
-                Stream body = KSeFHelpers.Create_InitSessionTokenRequest(this.Challenge_textBox.Text, CurrConf.NIP, EncryptedToken);
+                Stream body = KSeFHelpers.Create_InitSessionTokenRequest(this.Challenge_textBox.Text, CurrConf.NIP, EncryptedToken, IsFA2);
 
                 // call
                 var ret = Client.OnlineSessionTokenInit(body);
@@ -170,7 +171,7 @@ namespace TestKSeF
 
 
                 var resp = (SessionStatusResponse)ret.Value;
-                
+
                 System.Text.StringBuilder sb = new System.Text.StringBuilder();
                 sb.Append(resp.ProcessingCode);
                 sb.Append(": ");
@@ -285,10 +286,10 @@ namespace TestKSeF
                 dlg.FileName = this.Invoice1_textBox.Text;
                 dlg.DefaultExt = ".xml";
                 dlg.Filter = "Pliki .xml|*.xml";
-                if (dlg.ShowDialog(this)== DialogResult.OK)
+                if (dlg.ShowDialog(this) == DialogResult.OK)
                     this.Invoice1_textBox.Text = dlg.FileName;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(this, ex.ToString());
             }
@@ -435,7 +436,7 @@ namespace TestKSeF
 
                 // create correction invoice
                 byte[] buf = KSeFHelpers.CreateCorrection(resp,
-                                                this.KSefRefNo_textBox.Text, 
+                                                this.KSefRefNo_textBox.Text,
                                                 this.GetInvoice1_CorrNumber_textBox.Text, this.GetInvoice1_CorrReason_textBox.Text);
 
 
@@ -447,7 +448,7 @@ namespace TestKSeF
                 {
                     File.WriteAllBytes(this.GetInvoice_FileName_textBox.Text, buf);
                     this.Invoice1_textBox.Text = this.GetInvoice_FileName_textBox.Text; // prepare to resend to KSeF
-                }   
+                }
 
             }
             catch (Exception ex)
@@ -663,7 +664,7 @@ namespace TestKSeF
                 using (SHA256 mySHA256 = SHA256.Create())
                 {
                     int PartNo = 0;
-                    foreach(var itm in resp.PartList)
+                    foreach (var itm in resp.PartList)
                     {
                         PartNo++;
                         this.QueryFiles_Status_textBox.AppendText($"PartNo={PartNo}\r\n");
@@ -677,7 +678,7 @@ namespace TestKSeF
 
 
                         // download
-                        var ret2 = Client.OnlineQueryInvoiceFetch(this.QueryFiles_RefNo_textBox.Text, itm.PartReferenceNumber,FileName);
+                        var ret2 = Client.OnlineQueryInvoiceFetch(this.QueryFiles_RefNo_textBox.Text, itm.PartReferenceNumber, FileName);
                         if (ret2.Value is KSeFAPI.Models.ExceptionResponse ex2)
                             throw ExceptionToEx(ex2);
 
@@ -762,11 +763,11 @@ namespace TestKSeF
 
                 // split zip
                 byte[] buf = new byte[1024];
-                using(var FromFile = new FileStream(ZipFullName, FileMode.Open, FileAccess.Read))
+                using (var FromFile = new FileStream(ZipFullName, FileMode.Open, FileAccess.Read))
                 {
                     long Pos = 0;
                     int OrderNo = 0;
-                    while (Pos<FromFile.Length)
+                    while (Pos < FromFile.Length)
                     {
 
                         // copy part of file and encrypt 
@@ -827,7 +828,7 @@ namespace TestKSeF
                 ArgumentNullException.ThrowIfNull(Client);
 
                 // parameters
-                string path = Path.GetDirectoryName(this.Batch_SignFile_textBox.Text) ??"";
+                string path = Path.GetDirectoryName(this.Batch_SignFile_textBox.Text) ?? "";
 
                 // call
                 Response<object> ret;
@@ -843,7 +844,7 @@ namespace TestKSeF
                 this.ReferenceNo_textBox.Text = resp.ReferenceNumber;
 
                 // upload
-                foreach(var itm in resp.PackageSignature.PackagePartSignatureList)
+                foreach (var itm in resp.PackageSignature.PackagePartSignatureList)
                 {
                     string FileName = Path.Combine(path, itm.PartFileName);
 

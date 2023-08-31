@@ -5,8 +5,6 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestKSeF", "TestKSeF\TestKSeF.csproj", "{93D7DF4C-0ADC-40CF-B279-B33011B617E8}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GbbKSeFSetup", "GbbKSeFSetup\GbbKSeFSetup.vdproj", "{F8AEA8C8-D86E-480F-AA17-0AD198D2492A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{93D7DF4C-0ADC-40CF-B279-B33011B617E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93D7DF4C-0ADC-40CF-B279-B33011B617E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93D7DF4C-0ADC-40CF-B279-B33011B617E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8AEA8C8-D86E-480F-AA17-0AD198D2492A}.Debug|Any CPU.ActiveCfg = Debug
-		{F8AEA8C8-D86E-480F-AA17-0AD198D2492A}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
